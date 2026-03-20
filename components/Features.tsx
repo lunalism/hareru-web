@@ -33,8 +33,8 @@ export default function Features() {
   const t = useTranslations("features");
 
   return (
-    <section className="bg-white py-24 px-6">
-      <h2 className="text-center text-3xl font-bold text-navy mb-16">
+    <section className="py-24 px-6" style={{ background: "#050D1A" }}>
+      <h2 className="text-center text-3xl font-bold text-white mb-16">
         {t("title")}
       </h2>
 
@@ -46,15 +46,28 @@ export default function Features() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.15 }}
-            className="bg-white rounded-2xl p-8 shadow-md border border-gray-100"
+            className="p-8"
+            style={{
+              background: "rgba(255,255,255,0.03)",
+              border: "1px solid rgba(255,255,255,0.08)",
+              backdropFilter: "blur(12px)",
+              borderRadius: "1.5rem",
+              boxShadow: "0 8px 32px rgba(0,0,0,0.2)",
+            }}
           >
-            <div className="w-14 h-14 rounded-xl bg-navy flex items-center justify-center mb-6">
+            <div
+              className="w-14 h-14 rounded-xl flex items-center justify-center mb-6"
+              style={{
+                background: "linear-gradient(135deg, #1B3A6B, #2d5a9e)",
+                boxShadow: "0 0 20px rgba(27,58,107,0.5)",
+              }}
+            >
               {icons[i]}
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">
+            <h3 className="text-xl font-bold text-white mb-3">
               {t(`${key}_title`)}
             </h3>
-            <p className="text-gray-500 text-sm leading-relaxed">
+            <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
               {t(`${key}_desc`)}
             </p>
           </motion.div>

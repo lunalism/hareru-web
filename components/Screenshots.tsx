@@ -4,8 +4,8 @@ const screens = ["01", "02", "03", "04", "05", "06"];
 
 export default function Screenshots() {
   return (
-    <section className="bg-cream py-24">
-      <h2 className="text-center text-3xl font-bold text-navy mb-12">
+    <section className="py-24" style={{ background: "#050D1A" }}>
+      <h2 className="text-center text-3xl font-bold text-white mb-12">
         Screenshots
       </h2>
 
@@ -16,15 +16,22 @@ export default function Screenshots() {
         {screens.map((num) => (
           <div
             key={num}
-            className="snap-start shrink-0 w-[200px] h-[420px] rounded-[2.5rem] bg-gradient-to-b from-navy to-navy-dark border-2 border-white/20 shadow-xl flex flex-col items-center justify-center"
+            className="snap-start shrink-0 w-[200px] h-[420px] flex flex-col items-center justify-center"
+            style={{
+              borderRadius: "2.5rem",
+              background: "linear-gradient(145deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%)",
+              border: "1px solid rgba(255,255,255,0.12)",
+              backdropFilter: "blur(20px)",
+              boxShadow: "0 0 0 1px rgba(255,255,255,0.05), 0 32px 64px rgba(0,0,0,0.4), 0 0 80px rgba(27,58,107,0.3)",
+            }}
           >
-            <span className="text-cream/40 text-4xl font-bold">{num}</span>
-            <span className="text-cream/40 text-sm mt-2">Screen</span>
+            <span className="text-white/40 text-4xl font-bold">{num}</span>
+            <span className="text-white/40 text-sm mt-2">Screen</span>
           </div>
         ))}
       </div>
 
-      <p className="text-center mt-4 text-gray-400 text-sm">
+      <p className="text-center mt-4 text-white/30 text-sm">
         &larr; スワイプ / Swipe / 스와이프 &rarr;
       </p>
     </section>
