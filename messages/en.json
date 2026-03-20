@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "download": "Download on App Store",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "hero": {
+    "badge": "🎉 Now Available",
+    "tagline": "See your real spending.",
+    "sub": "An app that automatically excludes inter-bank transfers and shows only your real spending."
+  },
+  "features": {
+    "title": "Features",
+    "f1_title": "Auto Transfer Exclusion",
+    "f1_desc": "Automatically detects and excludes inter-bank transfers so you only see real expenses.",
+    "f2_title": "AI Insights",
+    "f2_desc": "AI analyzes your spending patterns and delivers personalized saving tips.",
+    "f3_title": "PDF Report",
+    "f3_desc": "Export your monthly spending report as a PDF."
+  },
+  "pricing": {
+    "title": "Pricing",
+    "popular": "Popular",
+    "free_desc": "Core expense tracking · Transfer exclusion",
+    "clear_desc": "AI Insights · Financial Health Score",
+    "pro_desc": "AI Coaching · PDF Reports"
+  },
+  "footer": {
+    "copyright": "© 2025 Lunalism. All rights reserved."
+  }
+}

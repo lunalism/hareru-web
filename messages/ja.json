@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "download": "App Storeでダウンロード",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "hero": {
+    "badge": "🎉 新登場",
+    "tagline": "本当の支出が、見える。",
+    "sub": "銀行間の振替を自動で除外し、本当の支出だけを表示するアプリ"
+  },
+  "features": {
+    "title": "機能紹介",
+    "f1_title": "振替を自動除外",
+    "f1_desc": "銀行間の振替を自動的に検出・除外し、本当の支出だけを把握できます。",
+    "f2_title": "AIインサイト",
+    "f2_desc": "AIが支出パターンを分析し、節約のヒントをお届けします。",
+    "f3_title": "PDFレポート",
+    "f3_desc": "月次の支出レポートをPDFでエクスポートできます。"
+  },
+  "pricing": {
+    "title": "料金プラン",
+    "popular": "人気",
+    "free_desc": "基本の支出管理・振替自動除外",
+    "clear_desc": "AIインサイト・財務ヘルススコア",
+    "pro_desc": "AIコーチング・PDFレポート"
+  },
+  "footer": {
+    "copyright": "© 2025 Lunalism. All rights reserved."
+  }
+}

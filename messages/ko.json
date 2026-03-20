@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "download": "App Store에서 다운로드",
+    "privacy": "개인정보보호방침",
+    "terms": "이용약관"
+  },
+  "hero": {
+    "badge": "🎉 출시",
+    "tagline": "진짜 지출을 확인하세요.",
+    "sub": "은행 간 이체를 자동으로 제외하고 진짜 지출만 보여주는 앱"
+  },
+  "features": {
+    "title": "기능 소개",
+    "f1_title": "이체 자동 제외",
+    "f1_desc": "은행 간 이체를 자동으로 감지하고 제외하여 실제 지출만 파악할 수 있습니다.",
+    "f2_title": "AI 인사이트",
+    "f2_desc": "AI가 지출 패턴을 분석하고 맞춤형 절약 팁을 제공합니다.",
+    "f3_title": "PDF 리포트",
+    "f3_desc": "월간 지출 리포트를 PDF로 내보낼 수 있습니다."
+  },
+  "pricing": {
+    "title": "요금제",
+    "popular": "인기",
+    "free_desc": "기본 지출 관리 · 이체 자동 제외",
+    "clear_desc": "AI 인사이트 · 재무 건강 점수",
+    "pro_desc": "AI 코칭 · PDF 리포트"
+  },
+  "footer": {
+    "copyright": "© 2025 Lunalism. All rights reserved."
+  }
+}
