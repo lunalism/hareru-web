@@ -9,18 +9,24 @@ export default function Screenshots() {
         Screenshots
       </h2>
 
-      <div className="w-full overflow-x-auto" style={{ scrollbarWidth: "none" }}>
-        <div className="inline-flex gap-5 px-8 pb-6 snap-x snap-mandatory mx-auto">
-          {screens.map((num) => (
-            <div
-              key={num}
-              className="snap-start shrink-0 w-[200px] h-[420px] rounded-[2.5rem] bg-gradient-to-b from-[#1B3A6B] to-[#0D1F3C] border-2 border-white/20 shadow-xl flex flex-col items-center justify-center"
-            >
-              <span className="text-white/40 text-4xl font-bold">{num}</span>
-              <span className="text-white/40 text-sm mt-2">Screen</span>
-            </div>
-          ))}
-        </div>
+      <div
+        className="flex gap-5 pb-6 snap-x snap-mandatory"
+        style={{
+          overflowX: "auto",
+          scrollbarWidth: "none",
+          paddingLeft: "calc(50vw - 560px)",
+          paddingRight: "calc(50vw - 560px)",
+        }}
+      >
+        {screens.map((num) => (
+          <div
+            key={num}
+            className="snap-start shrink-0 w-[200px] h-[420px] rounded-[2.5rem] bg-gradient-to-b from-[#1B3A6B] to-[#0D1F3C] border-2 border-white/20 shadow-xl flex flex-col items-center justify-center"
+          >
+            <span className="text-white/40 text-4xl font-bold">{num}</span>
+            <span className="text-white/40 text-sm mt-2">Screen</span>
+          </div>
+        ))}
       </div>
 
       <p className="text-center mt-4 text-gray-400 text-sm">
